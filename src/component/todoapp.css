@@ -1,0 +1,8 @@
+.TodoWrapper{
+  background: linear-gradient(80deg, rgba(0, 60, 255, 0.2), rgba(0, 128, 128, 0.3), rgba(15, 6, 175, 0.3)), url("../assignment/component/asset/lady-suff-online.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* padding-left: 150px; */
+  height: 100vh;
+  
+}

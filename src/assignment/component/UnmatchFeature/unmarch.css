@@ -1,0 +1,8 @@
+.customul {
+  font-size: 20px;
+}
+.forLine .customul li {
+  /* gap: 400px; */
+  /* row-gap: 30px; */
+  line-height: 40px;
+}

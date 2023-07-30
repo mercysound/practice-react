@@ -1,0 +1,10 @@
+.ladyCamdv{
+  position: relative;
+}
+.ladyCamImg{
+  position: absolute;
+  /* top: 20px; */
+  left: 30%;
+  bottom: 40%;
+
+}

@@ -1,0 +1,32 @@
+.cam-guy{
+  height: 80vh;
+}
+.tagLab{
+  font-size: 15px;
+}
+.sharewhat{
+  color: #305A54;
+  font-family: 'Reckless-Light', sans-serif !important;
+
+}
+
+
+.heroSec{
+  background: linear-gradient(rgb(255, 255, 255) calc(100% - 30px), rgb(205, 226, 217) 80px);
+}
+
+
+/* .for-end{
+  display: flex;
+  align-items: flex-end;
+  height: 50px;
+} */
+/* .align-items-end{
+  align-self: flex-end;
+} */
+.disclaimer{
+  font-size: 12px;
+}
+.disclaimer a {
+  color: black;
+}
