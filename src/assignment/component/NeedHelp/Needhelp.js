@@ -2,9 +2,9 @@ import React from 'react'
 import Needhelpcard from './Needhelpcard';
 
 const Needhelp = () => {
-  const teachableCard = () =>{
+  // const teachableCard = () =>{
 
-  }
+  // }
   let teaachebleCardsArray = [
     {
       forTitle:"Teachable:u", forText:"Marketing, video, course-building best practices—get access to our mini course library on those topics and more.", forLink:"Learn more"

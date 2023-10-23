@@ -1,4 +1,5 @@
-import Layout from '../layout/Layout';
+import React from 'react'
+// import Layout from '../layout/Layout';
 import Changefuture from '../assignment/component/ChangeYourFuture/Changefuture';
 import Escape from '../assignment/component/Escapecom/Escape';
 // import Footer from './component/Footer/Footer';

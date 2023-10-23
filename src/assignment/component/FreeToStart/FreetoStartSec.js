@@ -12,7 +12,7 @@ const FreetoStartSec = () => {
               <div className=' text-light'>
                 <h1 className='' style={{fontSize:"60px"}}><span className='fw-light'>Free to start,<br /></span>simple to scale</h1>
                 <p>Our free plan includes everything you need to begin teaching and earning now. Upgrade later for additional resources to support your business’s changing needs.</p>
-                <a href="" className='text-light'>View all Plan</a>
+                <a href="0" className='text-light'>View all Plan</a>
               </div>
             </div>
             <div className="col-xl-6 col-sm-12 d-flex justify-content-center">

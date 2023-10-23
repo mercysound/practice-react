@@ -25,7 +25,7 @@ const Usestatesecond = () => {
   }
     const deleteUser = (coming) =>{
       let copyUser = [...userArray]
-      let newFilt = copyUser.filter((group, index)=>(index!=coming))
+      let newFilt = copyUser.filter((group, index)=>(index!==coming))
       // console.log(newFilt);
       setuserArray(newFilt)
     }

@@ -1,11 +1,17 @@
+import React from 'react'
 import { Link } from "react-router-dom";
-import Lgbutton from "../button/Lgbutton";
+// import Lgbutton from "../button/Lgbutton";
 import "./Navstyle.module.css"
+import {useSelector} from "react-redux"
 
 
 const Nav = () => {
+  let count = useSelector(state=>state.counterReducer)
+  console.log(count)
   return (
     <>
+  <h1>{count.counter}</h1>
+  <button onclick></button>
     <div className='underline'>
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -60,7 +66,7 @@ const Nav = () => {
                 <div className="d-flex align-items-center ">
                 {/* <div className="nav-item">
                 </div> */}
-                  <a href="" className="text-dark me-3">Price</a>
+                  <a href="0" className="text-dark me-3">Price</a>
                 <button className="btn btn-success btn-md p-3"> Start for free</button>
                 </div>
                 {/* <button className="btn btn-success btn-outline-success text-light" type="submit">Search</button> */}

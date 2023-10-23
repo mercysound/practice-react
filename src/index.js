@@ -1,14 +1,23 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import React from 'react';
+import {configureStore} from "@reduxjs/toolkit";
+import { Provider } from 'react-redux';
+import counterReducer from "./redux/counter"
 // import reportWebVitals from './reportWebVitals';
 // import "../node_modules/boostrap/z"
+let store = configureStore({
+  // this reuducer detarmine what you want to do with the store
+  reducer:{counterReducer}
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 

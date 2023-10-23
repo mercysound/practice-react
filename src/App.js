@@ -5,8 +5,8 @@ import Parentui from './pages/Teachable';
 // import Header from './component/Header'
 import Usestatesecond from './component/Usestatesecond';
 import Todoapp from './component/Todoapp';
-import Testeffect from './component/testing-effect-page/Testeffect';
-import Layout from './layout/Layout';
+// import Testeffect from './component/testing-effect-page/Testeffect';
+// import Layout from './layout/Layout';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Home from './home/Home';
 import Error404 from './pages/Error404';
@@ -15,20 +15,21 @@ import Redirectcomp from './component/Redirectcomp';
 import ParameterizedRoute from './component/testing-effect-page/ParameterizedRoute';
 import MoreDetail from './component/MoreDetail';
 import Products from './component/Products';
+import Formikform from './component/Formikform';
+import {useSelector} from "react-redux"
+// use selector allow me to access any piece of state from global store
 // import Testeffect from './testing-effect-page/component/Testeffect';
 
 // import ConnectToBackend from './connectToBackend'
 // import ChatApp from './ChatApp'
 
 const App = () => {
-  // const sayHello = (myNumber)=>{
-  //   alert("Hello"+myNumber)
-  // }
+  let count = useSelector(state=>state)
+  console.log(count)
   return (
     <>
     <BrowserRouter>
     <Routes>
-      l
       <Route path={"/"} element={<Home/>}/>
       <Route path={"/home"} element={<Navigate to="/"/>}/>
       <Route path={"/teachable"} element={<Parentui/>}/>
@@ -41,6 +42,7 @@ const App = () => {
       <Route path="/product/*" element={<Products/>}/>
       {/* children route */}
       <Route path="/product/fish" element={<MoreDetail/>}/>
+      <Route path="/formik" element={<Formikform/>}/>
 
       <Route path={"*"} element={<Error404/>}/>
 

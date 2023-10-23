@@ -1,5 +1,5 @@
 import React from 'react'
-import myImage from '../asset/IMG_4830.jpeg'
+// import myImage from '../asset/IMG_4830.jpeg'
 import Images from '../asset/Images';
 import Lgbutton from '../button/Lgbutton';
 import './hero.css';
@@ -18,7 +18,7 @@ const Herosec = () => {
               <div className="m-5 pt-">
                 <h1 className='sharewhat'>Share what you know; we'll help you get paid for it</h1>
                 <p className='fw-small mt-3'>Teachable helps creators engage their online audiences and get paid on their own terms with courses, coaching, and downloadable content.</p>
-                <form class="form-inline h-50 w-100 d-flex align-items-end" role="form">
+                <form class="form-inline h-50 w-100 d-flex align-items-end">
                 <div class="form-group ">
                   <label className='tagLab' for="email">Enter your email:</label>
                   <div className="d-flex align-items-center">
@@ -26,7 +26,7 @@ const Herosec = () => {
                     <Lgbutton btnname="Start for free" btnnlass='btn btn-success btn-lg w-100 text-dark ms-2 fs-5 p-3 border-0 '/>
                   </div>
                     <div className='disclaimer p-0 m-0'>
-                      <p className=''>*By submitting your email address, you agree to <br />Teachable's <a href="">Terms of use</a> and <a href="">Privacy Policy</a>
+                      <p className=''>*By submitting your email address, you agree to <br />Teachable's <a href="0">Terms of use</a> and <a href="0">Privacy Policy</a>
                       </p>
                       <p></p>
                     </div>

@@ -1,3 +1,4 @@
+import React from 'react'
 // import Herosec from '../assignment/component/Herosec/Herosec';
 import Footer from '../assignment/component/Footer/Footer';
 import Header from '../assignment/component/header/Header';

@@ -1,5 +1,7 @@
+import React from 'react'
 import Parentui from "../pages/Teachable";
 import Layout from "../layout/Layout";
+
 
 const Home = () => {
   return(

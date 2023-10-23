@@ -12,7 +12,7 @@ const Needhelpcard = ({forTitle, forText, forLink}) => {
               </h3>
             </div>
             <div className="card-text tex=">{forText}</div>
-            <a className='text-dark' href=''>{forLink}</a>
+            <a className='text-dark' href='0'>{forLink}</a>
           </div>
         </div>
       </div>

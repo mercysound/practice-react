@@ -1,5 +1,5 @@
 import React from 'react'
-import womanEatSpag from "../asset/woman-eating.png"
+// import womanEatSpag from "../asset/woman-eating.png"
 
 const Teestimoneysec = ({testImg, testText}) => {
   return (

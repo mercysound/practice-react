@@ -1,3 +1,4 @@
+import React from 'react'
 const Mybutton = ({gBtnNm, color, sayAny, salute}) => {
   return (
     <div>

@@ -1,15 +1,16 @@
+import React from 'react'
 // import cardImg1 from '../asset/online-co-img.png'
 // import cardImg3 from '../asset/coach-pro.jpg'
 // import cardImg2 from '../asset/digital-down.png'
-import Waytoseecards from './Waytoseecards'
+// import Waytoseecards from './Waytoseecards'
 import './waytosee.css'
 import Waytoseechild from './Waytoseechild'
 import Waytoseemap from './Waytoseemap'
 
 const Waytosee = () => {
-  function giveUserDetai (card){
-    alert("hello "+ card)
-  }
+  // function giveUserDetai (card){
+  //   alert("hello "+ card)
+  // }
   return (
     <>
       <section className='waytoseesec' style={{backgroundColor:'#F8FAF4'}}>

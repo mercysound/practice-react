@@ -1,3 +1,4 @@
+import React from 'react'
 import ForImage from "../asset/cam-guy.png"
 import '../header/Navstyle.module.css'
 

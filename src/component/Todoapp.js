@@ -8,8 +8,8 @@ const Todoapp = () => {
   const [newTodo, setnewTodo] = useState("")
   const [todoArray, settodoArray] = useState([])
   const [editIndex, seteditIndex] = useState(0)
-  const [EditedObj, setEditedObj] = useState({})
-  const [editInp, seteditInp] = useState("")
+  // const [EditedObj, setEditedObj] = useState({})
+  // const [editInp, seteditInp] = useState("")
   const addTodoNow = () => {
   //   {newTodo = ("")?alert("input your Todo"):
   //   // settodoArray([..])
@@ -45,17 +45,13 @@ const Todoapp = () => {
     // console.log(newObjectArray);
     // seteditInp(EditedObj.newTodo)  
     setnewTodo(newObjectArray.newTodo)  
-    setEditedObj(newObjectArray)
+    // setEditedObj(newObjectArray)
   }
   
   const deleteArray = (coming) =>{
     let arrayCopy = [...todoArray]
     let filtarrayCopy = arrayCopy.filter((item, index)=>(coming!==index))
     settodoArray(filtarrayCopy)
-  }
-  const savechange = () =>{
-    
-
   }
 
 
@@ -64,7 +60,6 @@ const Todoapp = () => {
     <div className="TodoWrapper justify-content-center d-flex align-items-center flex-wrap  mx-auto w-50 " style={{}}>
           <div className='h-75 px-3' >
             <div className="mx-auto text-center">
-            <h3></h3>
             <h2 className='text-light my-5'>Schedule Your Day Plan <br />with Mercy To-do App</h2>
             <div className="d-flex justify-content-between w-75  my-3 mx-auto">
             <div><input className='form-control' type="text" placeholder='Input your Todo' onChange={(e)=>setnewTodo(e.target.value)} value={newTodo}/></div>
